@@ -451,6 +451,7 @@ class ShowModelCommand extends Command
      * Install the command needed dependencies.
      *
      * @return void
+     *
      * @throws \Symfony\Component\Process\Exception\ProcessSignaledException
      */
     protected function installDependencies()
